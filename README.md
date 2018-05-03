@@ -1,3 +1,4 @@
-# iOSMobileApp
+# iOSMobileClientApp
 
-This is a simple IOS Mobile App connecting to the ThumbSignIn OAuth Server for user authentication.
+This is a simple IOS mobile client App connecting to the ThumbSignIn OAuth Server for user authentication.
+
