@@ -65,6 +65,14 @@ typedef void (^TSErrorCallBackBlock)(NSError *TSError);
  Invoke this method to check whether a user is regsitered.
  */
 -(BOOL)isUserRegistered;
+/**
+ Invoke this method to enable Alternative Login Mechanism  that will shown, if user cancels the Biometric authentication mechanism.
+ */
+-(void)enableAlternateLoginMechanism;
+/**
+ Invoke this method to disable Alternative Login Mechanism that is shown if user cancels the Biometric authentication mechanism.
+ */
+-(void)disableAlternateLoginMechanism;
 
 /* Website Login Integration API */
 /**
