@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -38,8 +39,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Qia-Gh-Kei"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="54"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAA-fv-gdU">
@@ -73,6 +73,7 @@
                             <constraint firstItem="KMn-by-a46" firstAttribute="top" secondItem="5ss-Fe-p8P" secondAttribute="bottom" constant="228" id="CQ7-U6-k8j"/>
                             <constraint firstItem="vil-sC-TfT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-120" id="Gzr-l0-l7h"/>
                             <constraint firstItem="vil-sC-TfT" firstAttribute="width" secondItem="KMn-by-a46" secondAttribute="width" id="Kjq-0Z-SEd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="5ss-Fe-p8P" secondAttribute="bottom" constant="-70.5" id="RtQ-iM-u85"/>
                             <constraint firstItem="KMn-by-a46" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="UdE-60-Yli"/>
                             <constraint firstItem="KMn-by-a46" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Us2-pw-Vld"/>
                             <constraint firstItem="vil-sC-TfT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aFK-L1-cAN"/>
